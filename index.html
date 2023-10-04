@@ -1,0 +1,92 @@
+{% load static %}
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <!-- Document title, showing on the browser tab-->
+        <title>Mieke Nel CV</title>
+        <!-- Link the external CSS code for styling-->
+        <link href = "index.css" rel = "stylesheet" type = "text/css">
+    </head>
+
+    <!-- Body section of the HTML code-->
+    <body>
+        <h1 id = "firstHeading">Mieke Nel - CV</h1>
+        <img src="{% static 'Mieke Photo.jpg' %}" class="profile-image">
+
+        <!-- About Me section-->
+        <h2>About</h2>
+        <p>I am a fast learning individual, eager to face new challenges and broaden my field of experience. Problem solving is something I enjoy.
+            I also enjoy being part of a team, I have excellent people skills and find it easy to communicate on all levels. I also take responsibility for my work and I work diligently to see all tasks through to completion. <br> <br>
+            I studied Mechatronic Engineering at SU and currently work as a Engineer in Training at Jacobs Clean Energy, doing projects for Koeber Nuclear Power Station.
+            I am passionate about people, animals and nature and enjoy spending time in the ocean or the mountains. <br> <br>
+            As for my future, I am curious about a career in Controls & Instrumentation Engineering as well as Software Engineering. 
+        </p>
+        
+        <br>
+
+        <!-- Contact Details-->
+        <h2>Contact Details</h2>
+        <p>
+            <b>Name:</b> Mieke Nel <br>
+            <b>Cellphone:</b> (+27) 76 402 6916 <br>
+            <b>E-Mail:</b> mieke.bouwer@gmail.com <br>
+            <b>LinkedIn:</b> <a target = "_blank" href = "https://www.linkedin.com/in/miekebouwer/">Mieke Nel</a>
+        </p>
+
+        <br>
+
+        <!-- Skills Section-->
+        <h2>Skills & Competencies</h2>
+
+        <h4>Soft Skills:</h4>
+        <ul>
+            <li>Communication</li>
+            <li>Critical Thinking</li>
+            <li>Problem Solving</li>
+            <li>Time Management</li>
+            <li>Teamwork</li>
+        </ul>
+
+        <h4>Technical Skills:</h4>
+        <ul>
+            <li>Python</li>
+            <li>C (Programming Language)</li>
+            <li>Matlab (Simulink)</li>
+            <li>PLC (Programmable Logic Control)</li>
+            <li>Excel</li>
+        </ul>
+        
+        <br>
+        
+        <!-- Education History-->
+        <h2>Education</h2>
+        <ul>
+            <li>HyperionDev: Software Engineering Bootcamp</li>
+            <li>Stellenbosch University: Mechatronic Engineering (BEng)</li>
+            <li>Nico Malan High School: NQF Level 4</li>
+        </ul>
+
+        <br>
+
+        <!-- Work Experience Section-->
+        <h2>Work Experience</h2>
+        <p>Jacobs Clean Energy SA: EIT / Junior Project Manager
+            As an EIT I assist lead Engineers on Design, Quality Management, Change Management, Installation oversight for the project of Safety Relief Valve Capacity Increase as a daughter modification of the Steam Generator Replacement at Koeberg Nuclear Power Station.
+            As a Junior Project Manager, I attend to commercial matters, tender negotiations, documentation control, project Schedule, Contract Management, project finance tracking, feeding back to the Client, and managing Subcontractors. 
+        </p>
+
+        <br>
+
+        <!-- Previous projects, containing links to work.-->
+        <h2>Personal Projects</h2>
+        <h4>HyperionDev Object-Oriented Programming Capstone Project:</h4>
+        <p>This project entailed writing a Python that displays a menu of funtional items to a user, with multiple ways of editing or reading data contained in an "inventory" file. </p>
+        <p>View this project via this link:</p> <a href = "https://github.com/miekebouwer/HyperionDev_OOP_Capstone">Mieke's OOP Project</a>
+        
+        <br>
+
+    </body>
+
+</html>
